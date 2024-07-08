@@ -52,7 +52,7 @@ nav ul a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -107,7 +107,6 @@ nav ul a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -119,6 +118,8 @@ nav ul a:hover {
 }
 .service h3 {
    font-size: 20px;
+   margin: 0;
+   padding: 0;
 }
 .service p {
     line-height: 1.4;
@@ -162,8 +163,6 @@ nav ul a:hover {
 }
 .droit img {
     width: 70%;
-    /* margin-left: 20%;
-    padding: 20px; */
     display: flex;
     align-items: center;
 }
@@ -192,6 +191,8 @@ nav ul a:hover {
     margin-bottom: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
+
+
 
 .div_haut {
     display: flex;
@@ -222,6 +223,782 @@ nav ul a:hover {
     font-size: 15px;
     margin: 0;
     padding: 0;
+}
+
+
+#contact {
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.form_box {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+form {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+form input {
+    border: 1px solid #8C9CA4;
+    box-shadow: 1px 1px 1px #8C9CA4;
+    background: transparent;
+    border-radius: 7px;
+    padding: 13px;
+    margin: 12px;
+    width: 82%;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.textarea {
+   flex-direction: column
+}
+
+.textarea textarea {
+    margin-top: 5px;
+    border: 1px solid #8C9CA4;
+    box-shadow: 1px 1px 1px #8C9CA4;
+    background: transparent;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 12px;
+    width: 80%;
+    outline: none;
+    resize: none;
+    height: 72%; 
+}
+
+form button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: #0C2C43;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.maps {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.adressse_tel {
+    color: #0C2C43;
+    margin-right: 240px;
+}
+
+.adressse_tel a {
+    color: #8C9CA4;
+}
+
+.adressse_tel a:hover {
+    color: #0C2C43;
+}
+
+footer {
+
+    background-color: #0C2C43;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 20%;
+    height: 10%;
+    margin-right: 2px;
+}
+
+.toggle_menu {
+    display: none;
+}
+
+@media (max-width: 920px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+    .hero-text {
+        font-size: 20px;
+    }
+
+    .services h2 {
+        font-size: 30px;
+    }
+
+    .service {
+        margin: 0;
+        padding: 10px;
+        font-size: 16px;
+        margin-left: 10px;
+        height: 200px;
+    }
+    .service h3 {
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .service img {
+        margin: 0;
+    }
+
+    .service p {
+        font-size: 14px;
+    }
+    .service p br {
+        display: none;
+    }
+
+    #a_propos h2 {
+        font-size: 30px;
+    }
+    .gauche p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #temoignages h2{
+        font-size: 30px;
+    }
+    .temoin {
+        margin-left: 20px;
+        margin: 0;
+        padding: 9px;
+        margin-left: 15px;
+        height: 175px;
+    }
+    .temoin p {
+       font-size: 13px;
+    }
+    .div_haut {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+    .nom_temoin {
+       display: flex;
+       margin-right: 30px;
+    }
+    .nom_temoin h6 {
+      font-size: 9px;
+      margin: 0;
+      padding: 0;
+    }
+    .img_temon {
+       width: 50px;
+       margin: 0;
+    }
+    .quote {
+        margin: 0;
+    }
+
+    #contact {
+        margin-bottom: 20px;
+    }
+    #contact h2 {
+        font-size: 30px;
+    }
+    .form_box {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form button {
+        width: 93%;
+    }
+    form input {
+        outline: none;
+        width: 84%;
+    }
+    .maps {
+        display: flex;
+        align-items: center;
+    }
+    .adressse_tel {
+        font-size: 16px;
+        margin-left: 100px;
+    }
+    iframe {
+        width: 90%;
+        
+    }
+
+}
+
+
+@media  (max-width: 768px){
+    nav ul {
+        display: none;
+    }
+    nav img {
+        width: 10%;
+    }
+    .hero-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 21px;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        line-height: 1.5;
+    }
+    .hero-text p {
+        font-size: 19px;
+    }
+
+    #services h2 {
+        font-size: 24px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service {
+       width: 80%;
+       padding: 15px;
+       margin-bottom: 15px;
+    }
+    .service P br {
+        display: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #a_propos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #a_propos h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #a_propos .container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gauche p {
+        font-size: 20px;
+        text-align: justify;  
+        margin: 0;
+    }
+
+    .droit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .droit img {
+        width:220px;
+    }
+
+    #temoignages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #temoignages h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .temoin {
+        width: 70%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .temoin p {
+        font-size: 16px;
+    }
+
+    .div_haut .nom_temoin h6 {
+        font-size: 15px;
+        
+    }
+
+    .nom_temoin {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    form button {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .maps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    iframe {
+        width: 150%;
+        height: 200px;
+    }
+
+    .adressse_tel {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+     .toggle_menu {
+            display: flex;
+            height: 40px;
+            width: 40px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+    
+        }
+    
+        .toggle_menu::before {
+            position: absolute;
+            content: "";
+            height: 3px;
+            width: 28px;
+            background-color: #80A470;
+            border-radius: 6px;
+            box-shadow: 0 10px 0 #80A470;
+            transform: translateY(-10px);
+            transition: 0.5s;
+        }
+    
+        .toggle_menu.active::before {
+            transform: translateY(0) rotate(135deg);
+            box-shadow: 0 0 0 #80A470;
+        }
+    
+        .toggle_menu::after {
+            position: absolute;
+            content: "";
+            height: 3px;
+            width: 28px;
+            background-color: #80A470;
+            border-radius: 6px;
+            transform: translateY(10px);
+            transition: 0.5s;
+        }
+    
+        .toggle_menu.active::after {
+            transform: translateY(0) rotate(-135deg);
+        }
+
+                nav .menu.responsive ul {
+                    max-width: 15px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+        
+                nav .menu.responsive {
+                    display: flex;
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    right: 0; 
+                    display: flex;
+                    height: 280px;                  
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #0C2C43;
+                    flex-direction: column;
+                }
+
+                nav .menu.responsive li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+                }
+        
+                nav .menu li a {
+                    color: #ffffff;
+                    cursor: pointer;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+
+    
+}
+
+@media (max-width: 430px) {
+    nav ul {
+        display: none;
+    }
+
+    .hero-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    #services h2 {
+        font-size: 24px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .service h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #a_propos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #a_propos h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #a_propos .container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gauche p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .droit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .droit img {
+        width: 200px;
+    }
+
+    #temoignages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #temoignages h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .temoin {
+        width: 70%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .temoin p {
+        font-size: 16px;
+    }
+
+    .img_temon {
+        width: 50%;
+    }
+
+    .div_haut .nom_temoin h6 {
+        font-size: 15px;
+
+    }
+
+    .nom_temoin {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    form button {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .maps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    iframe {
+        width: 150%;
+        height: 200px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .adressse_tel {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+        .toggle_menu {
+             display: flex;
+             height: 40px;
+             width: 40px;
+             align-items: center;
+             justify-content: center;
+             position: relative;
+             cursor: pointer;
+    
+        }
+    
+        .toggle_menu::before {
+             position: absolute;
+             content: "";
+             height: 3px;
+             width: 28px;
+             background-color: #80A470;
+             border-radius: 6px;
+             box-shadow: 0 10px 0 #80A470;
+             transform: translateY(-10px);
+             transition: 0.5s;
+        }
+    
+        .toggle_menu.active::before {
+             transform: translateY(0) rotate(135deg);
+             box-shadow: 0 0 0 #80A470;
+        }
+    
+        .toggle_menu::after {
+             position: absolute;
+             content: "";
+             height: 3px;
+             width: 28px;
+             background-color: #80A470;
+             border-radius: 6px;
+             transform: translateY(10px);
+             transition: 0.5s;
+        }
+    
+        .toggle_menu.active::after {
+             transform: translateY(0) rotate(-135deg);
+        }
+    
+        nav .menu.responsive ul {
+             max-width: 15px 0;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+        }
+    
+         nav .menu.responsive {
+             display: flex;
+             position: absolute;
+             top: 30px;
+             left: 0;
+             right: 0;
+             display: flex;
+             height: 250px;
+             align-items: center;
+             justify-content: center;
+             background-color: #0C2C43;
+             flex-direction: column;
+         }
+    
+        nav .menu li a {
+             color: #ffffff;
+             cursor: pointer;
+             font-size: 18px;
+             margin-bottom: 10px;
+    
+        }
+
+        nav img {
+            width: 9%;
+            border-radius: 50px;
+       }
 }
 
 
